@@ -5,7 +5,7 @@ import io.kotlintest.specs.FeatureSpec
 
 class KotlinTestExamplesTest : BehaviorSpec() {
 
-    val faker = Faker()
+    private val faker = Faker()
 
     init {
 
